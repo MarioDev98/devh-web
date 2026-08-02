@@ -64,3 +64,80 @@ body {
   color: #ffffff;
   border-color: #000000;
 }
+
+/* Ajuste de contenedor e imágenes */
+.card-img-wrapper {
+  height: 220px;
+  position: relative;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  border-top-left-radius: calc(0.375rem - 1px);
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilos para los botones del carrusel dentro de la tarjeta */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-card:hover .carousel-control-prev,
+.product-card:hover .carousel-control-next {
+  opacity: 0.8; /* Mostrar flechas solo al pasar el mouse sobre la tarjeta */
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+
+/* ==========================================
+   Botones Personalizados (Instagram & WhatsApp)
+   ========================================== */
+
+/* Botón Instagram */
+.btn-instagram {
+  color: #e1306c;
+  border: 1px solid #e1306c;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-instagram:hover,
+.btn-instagram:focus {
+  color: #ffffff;
+  /* Gradiente oficial de Instagram */
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  border-color: transparent;
+  box-shadow: 0 4px 15px rgba(225, 48, 108, 0.35);
+  transform: translateY(-2px);
+}
+
+/* Botón WhatsApp */
+.btn-whatsapp {
+  color: #25d366;
+  border: 1px solid #25d366;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-whatsapp:hover,
+.btn-whatsapp:focus {
+  color: #ffffff;
+  /* Verde característico de WhatsApp */
+  background-color: #25d366;
+  border-color: #25d366;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.35);
+  transform: translateY(-2px);
+}

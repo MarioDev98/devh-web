@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DEVH | Keyboards & Custom Gear</title>
+  <title>DEVH | Custom Keyboards</title>
   
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <!-- Bootstrap Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
-  <!-- Google Fonts (Inter para toque minimalista) -->
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
   <!-- CSS Personalizado -->
   <link rel="stylesheet" href="style.css" />
@@ -19,7 +19,9 @@
   <!-- Navegación -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top py-3 border-bottom">
     <div class="container">
-      <a class="navbar-brand fw-bold tracking-tight" href="#">DEVH<span class="text-primary">.</span></a>
+      <a class="navbar-brand fw-bold tracking-tight" href="#">
+        <img src="images/logo.png" alt="DEVH Logo" style="height: 50px;">
+      </a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,7 +31,7 @@
           <li class="nav-item"><a class="nav-link px-3" href="#nosotros">Sobre Mí</a></li>
           <li class="nav-item"><a class="nav-link px-3" href="#contacto">Contacto</a></li>
           <li class="nav-item ms-lg-2">
-            <a class="btn btn-outline-dark rounded-pill px-4 btn-sm" href="https://instagram.com" target="_blank">
+            <a class="btn btn-instagram rounded-pill px-4 btn-sm" href="https://www.instagram.com/l_devh_l/" target="_blank">
               <i class="bi bi-instagram me-1"></i> Instagram
             </a>
           </li>
@@ -38,91 +40,53 @@
     </div>
   </nav>
 
-  <!-- Hero Section Minimalista -->
+  <!-- Hero Section -->
   <header class="py-5 bg-light border-bottom">
     <div class="container py-5 text-center">
       <span class="badge bg-dark rounded-pill px-3 py-2 text-uppercase mb-3 tracking-wide">Custom Keyboards</span>
       <h1 class="display-4 fw-bold text-dark mb-3">Eleva tu experiencia de escritura</h1>
       <p class="lead text-muted mx-auto mb-4" style="max-width: 600px;">
-        Teclados mecánicos artesanales, switches seleccionados y reposamuñecas diseñados para el máximo confort y estética.
+        Teclados mecánicos artesanales, switches seleccionados, set de teclas y reposamuñecas diseñados para el máximo confort y estética.
       </p>
       <a href="#productos" class="btn btn-dark rounded-pill px-4 py-2">Explorar Catálogo</a>
     </div>
   </header>
 
-  <!-- Sección de Productos con Filtro Dinámico -->
+  <!-- Sección de Productos -->
   <section id="productos" class="py-5">
     <div class="container py-4">
-      <div class="text-center mb-5">
+      <div class="text-center mb-4">
         <h2 class="fw-bold">Nuestros Productos</h2>
-        <p class="text-muted">Selecciona una categoría para filtrar</p>
+        <p class="text-muted">Busca un producto o selecciona una categoría para filtrar</p>
         
+        <!-- Buscador Superior -->
+        <div class="row justify-content-center mb-4">
+          <div class="col-md-6 col-lg-5">
+            <div class="input-group">
+              <span class="input-group-text bg-white border-end-0 rounded-start-pill ps-3">
+                <i class="bi bi-search text-muted"></i>
+              </span>
+              <input type="text" id="search-input" class="form-control border-start-0 rounded-end-pill py-2 shadow-none" placeholder="Buscar por nombre o descripción...">
+            </div>
+          </div>
+        </div>
+
         <!-- Botones de Filtro -->
-        <div class="btn-group flex-wrap justify-content-center mt-3" role="group">
+        <div class="btn-group flex-wrap justify-content-center mt-2" role="group">
           <button type="button" class="btn btn-filter active" data-filter="all">Todos</button>
           <button type="button" class="btn btn-filter" data-filter="teclados">Teclados</button>
           <button type="button" class="btn btn-filter" data-filter="switches">Switches</button>
+          <button type="button" class="btn btn-filter" data-filter="keys">Set de Teclas</button>
           <button type="button" class="btn btn-filter" data-filter="reposamunecas">Reposamuñecas</button>
         </div>
       </div>
 
-      <!-- Grid de Productos -->
-      <div class="row g-4" id="product-grid">
-        
-        <!-- Producto 1: Teclado -->
-        <div class="col-md-6 col-lg-4 product-item" data-category="teclados">
-          <div class="card h-100 border-0 product-card">
-            <div class="card-img-wrapper">
-              <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Teclado Custom 65%">
-            </div>
-            <div class="card-body d-flex flex-column">
-              <span class="text-uppercase text-muted small mb-1">Teclados</span>
-              <h5 class="card-title fw-bold">DEVH Pro 65%</h5>
-              <p class="card-text text-muted small flex-grow-1">Gasket mount, chasis de aluminio CNC, keycaps PBT doble inyección.</p>
-              <div class="d-flex justify-content-between align-items-center mt-3">
-                <span class="fs-5 fw-bold">$120.00</span>
-                <a href="#contacto" class="btn btn-sm btn-outline-dark rounded-pill">Consultar</a>
-              </div>
-            </div>
-          </div>
-        </div>
+      <!-- Grid de Productos (Se genera dinámicamente con JS) -->
+      <div class="row g-4" id="product-grid"></div>
 
-        <!-- Producto 2: Switches -->
-        <div class="col-md-6 col-lg-4 product-item" data-category="switches">
-          <div class="card h-100 border-0 product-card">
-            <div class="card-img-wrapper">
-              <img src="https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Switches Lineales">
-            </div>
-            <div class="card-body d-flex flex-column">
-              <span class="text-uppercase text-muted small mb-1">Switches</span>
-              <h5 class="card-title fw-bold">Linear Cream Switches (x10)</h5>
-              <p class="card-text text-muted small flex-grow-1">Switches lineales ultra suaves de 55g, lubrificados de fábrica.</p>
-              <div class="d-flex justify-content-between align-items-center mt-3">
-                <span class="fs-5 fw-bold">$8.50</span>
-                <a href="#contacto" class="btn btn-sm btn-outline-dark rounded-pill">Consultar</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Producto 3: Reposamuñecas -->
-        <div class="col-md-6 col-lg-4 product-item" data-category="reposamunecas">
-          <div class="card h-100 border-0 product-card">
-            <div class="card-img-wrapper">
-              <img src="https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Reposamuñecas de Madera">
-            </div>
-            <div class="card-body d-flex flex-column">
-              <span class="text-uppercase text-muted small mb-1">Reposamuñecas</span>
-              <h5 class="card-title fw-bold">Reposamuñecas Nogal Artesanal</h5>
-              <p class="card-text text-muted small flex-grow-1">Madera maciza de nogal con acabado en aceite natural y base antideslizante.</p>
-              <div class="d-flex justify-content-between align-items-center mt-3">
-                <span class="fs-5 fw-bold">$25.00</span>
-                <a href="#contacto" class="btn btn-sm btn-outline-dark rounded-pill">Consultar</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
+      <!-- Controles de Cargar más -->
+      <div class="text-center mt-5">
+        <button id="btn-load-more" class="btn btn-outline-dark rounded-pill px-4">Ver más productos</button>
       </div>
     </div>
   </section>
@@ -132,15 +96,15 @@
     <div class="container py-4">
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
-          <img src="https://images.unsplash.com/photo-1541140590914-879e86c5171e?auto=format&fit=crop&w=800&q=80" alt="Sobre DEVH" class="img-fluid rounded-4 shadow-sm">
+          <img src="images/logo.png" alt="Sobre DEVH" class="img-fluid rounded-4 shadow-sm">
         </div>
         <div class="col-lg-6">
           <span class="text-primary fw-semibold text-uppercase tracking-wide">Sobre el Proyecto</span>
           <h2 class="fw-bold my-3">Pasión por los detalles y la acústica en tu escritorio</h2>
           <p class="text-muted">
-            En **DEVH** nos dedicamos a armar y personalizar teclados mecánicos buscando el equilibrio perfecto entre sonido, tacto y estética. Cada componente es probado e inspeccionado manualmente.
+            En <strong>DEVH</strong> nos dedicamos a armar y personalizar teclados mecánicos buscando el equilibrio perfecto entre sonido, tacto y estética. Cada componente es probado e inspeccionado manualmente.
           </p>
-          <p class="text-muted">
+          <p class="text-muted mb-0">
             Ya sea que busques tu primer teclado mecánico o quieras mejorar tu setup con switches modificados o reposamuñecas ergonómicos, te ayudamos a crear la combinación ideal.
           </p>
         </div>
@@ -148,19 +112,19 @@
     </div>
   </section>
 
-  <!-- Sección Contacto y Redes -->
+  <!-- Sección Contacto -->
   <section id="contacto" class="py-5">
     <div class="container py-4 text-center">
       <h2 class="fw-bold mb-3">¿Tienes alguna consulta o pedido custom?</h2>
       <p class="text-muted mx-auto mb-4" style="max-width: 500px;">
-        Escríbenos directamente por nuestras redes sociales para cotizaciones personalizadas o disponibilidad de stock.
+        Escríbeme directamente por mis redes sociales para cotizaciones personalizadas o disponibilidad de stock.
       </p>
       
       <div class="d-flex justify-content-center gap-3">
-        <a href="https://instagram.com" target="_blank" class="btn btn-outline-dark btn-lg rounded-pill px-4 fs-6">
+        <a href="https://www.instagram.com/l_devh_l/" target="_blank" class="btn btn-instagram btn-lg rounded-pill px-4 fs-6">
           <i class="bi bi-instagram me-2"></i>Instagram
         </a>
-        <a href="https://wa.me/tu-numero" target="_blank" class="btn btn-dark btn-lg rounded-pill px-4 fs-6">
+        <a href="https://wa.me/tu-numero" target="_blank" class="btn btn-whatsapp btn-lg rounded-pill px-4 fs-6">
           <i class="bi bi-whatsapp me-2"></i>WhatsApp
         </a>
       </div>
@@ -174,9 +138,8 @@
     </div>
   </footer>
 
-  <!-- Bootstrap 5 JS -->
+  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Script de Filtro -->
   <script src="main.js"></script>
 </body>
 </html>

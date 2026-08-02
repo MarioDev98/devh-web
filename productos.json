@@ -1,0 +1,284 @@
+[
+  {
+    "id": 1,
+    "categoria": "teclados",
+    "titulo": "CORNE MX",
+    "descripcion": "Teclado ergonómico dividido, 42 teclas, iluminación RGB, hotswap, teclas y switches intercambiables, alámbrico.",
+    "precio": "$2,750.00 MX",
+    "imagenes": ["images/teclados/cornemx2.png", "images/teclados/cornemx.png"]
+  },
+  {
+    "id": 2,
+    "categoria": "teclados",
+    "titulo": "CORNE LOW PROFILE",
+    "descripcion": "Teclado ergonómico dividido, 42 teclas, iluminación RGB, hotswap, switches low profile, teclas y switches intercambiables, alámbrico.",
+    "precio": "$3,000.00 MX",
+    "imagenes": ["images/teclados/cornelowprofile.jpg"]
+  },
+  {
+    "id": 3,
+    "categoria": "teclados",
+    "titulo": "CORNE WIRELESS",
+    "descripcion": "Teclado ergonómico dividido, 42 teclas, hotswap, switches low profile, teclas y switches intercambiables, alámbrico.",
+    "precio": "$3,300.00 MX",
+    "imagenes": ["images/teclados/cornewireless.jpg", "images/teclados/cornewireless2.jpg"]
+  },
+  {
+    "id": 4,
+    "categoria": "teclados",
+    "titulo": "CORNE TÉMATICO",
+    "descripcion": "Teclado ergonómico dividido, 42 teclas, hotswap, switches low profile, teclas y switches intercambiables, inalámbrico o alámbrico.",
+    "precio": "$3,000.00 MX",
+    "imagenes": ["images/teclados/cornetematico.jpg", "images/teclados/cornetematico2.jpg"]
+  },
+  {
+    "id": 5,
+    "categoria": "teclados",
+    "titulo": "LILY 58 PRO MX",
+    "descripcion": "Teclado ergonómico dividido, 58 teclas, hotswap, switches MX, teclas y switches intercambiables, alámbrico.",
+    "precio": "$2,850.00 MX",
+    "imagenes": ["images/teclados/Lily58ProMX.png", "images/teclados/Lily58ProMX2.png"]
+  },
+  {
+    "id": 6,
+    "categoria": "teclados",
+    "titulo": "LILY 58 PRO LOW PROFILE",
+    "descripcion": "Teclado ergonómico dividido, 58 teclas, hotswap, switches low profile, teclas y switches intercambiables, alámbrico.",
+    "precio": "$3,100.00 MX",
+    "imagenes": ["images/teclados/Lily58ProLowProfile.jpg"]
+  },
+  {
+    "id": 7,
+    "categoria": "teclados",
+    "titulo": "LILY 58 PRO WIRELESS",
+    "descripcion": "Teclado ergonómico dividido, 58 teclas, hotswap, switches low profile, teclas y switches intercambiables, inalámbrico.",
+    "precio": "$3,500.00 MX",
+    "imagenes": ["images/teclados/Lily_58_Pro_Wireless.jpg"]
+  },
+  {
+    "id": 8,
+    "categoria": "teclados",
+    "titulo": "SOFLE V1.1",
+    "descripcion": "Teclado ergonómico dividido, 58 teclas y 2 perillas, hotswap, switches MX, teclas y switches intercambiables, alámbrico.",
+    "precio": "$2,850.00 MX",
+    "imagenes": ["images/teclados/soflev11.jpg"]
+  },
+  {
+    "id": 9,
+    "categoria": "teclados",
+    "titulo": "PYKEY40",
+    "descripcion": "Teclado completo, 48 teclas, iluminación RGB, hotswap MX, switches MX, teclas y switches intercambiables, alámbrico.",
+    "precio": "$2,100.00 MX",
+    "imagenes": ["images/teclados/PyKey40.png"]
+  },
+  {
+    "id": 10,
+    "categoria": "teclados",
+    "titulo": "FERRIS SWEEP",
+    "descripcion": "Teclado ergonómico dividido, 34 teclas, switches MX o low profile, teclas y switches intercambiables, alámbrico.",
+    "precio": "$1,800.00 MX",
+    "imagenes": ["images/teclados/Ferris_swep.png", "images/teclados/Ferris_swep2.png"]
+  },
+  {
+    "id": 11,
+    "categoria": "teclados",
+    "titulo": "REVIUNG 41",
+    "descripcion": "Teclado ergonómico, 41 teclas, switches MX, teclas y switches intercambiables, alámbrico.",
+    "precio": "$2,100.00 MX",
+    "imagenes": ["images/teclados/Reviung41.jpg"]
+  },
+  {
+    "id": 12,
+    "categoria": "teclados",
+    "titulo": "TOTEM",
+    "descripcion": "Teclado ergonómico dividido, 38 teclas, switches low profile, teclas y switches intercambiables, alámbrico.",
+    "precio": "$2,200.00 MX",
+    "imagenes": ["images/teclados/totem.jpg"]
+  },
+  {
+    "id": 13,
+    "categoria": "teclados",
+    "titulo": "TOTEM WIRELESS",
+    "descripcion": "Teclado ergonómico dividido, 38 teclas, switches low profile, teclas y switches intercambiables, inalámbrico.",
+    "precio": "$2,500.00 MX",
+    "imagenes": ["images/teclados/totem_wireless.jpg"]
+  },
+  {
+    "id": 14,
+    "categoria": "switches",
+    "titulo": "Outemu Brown",
+    "descripcion": "Switches táctiles balanceados, ideales para escritura y uso diario.",
+    "precio": "Disponible",
+    "imagenes": ["images/switches/outemubrown.png"]
+  },
+  {
+    "id": 15,
+    "categoria": "switches",
+    "titulo": "Outemu Black",
+    "descripcion": "Switches lineales pesados con pulsación constante.",
+    "precio": "Disponible",
+    "imagenes": ["images/switches/outemublack.png"]
+  },
+  {
+    "id": 16,
+    "categoria": "switches",
+    "titulo": "Outemu Red",
+    "descripcion": "Switches lineales ligeros y suaves, ideales para gaming.",
+    "precio": "Disponible",
+    "imagenes": ["images/switches/outemured.png"]
+  },
+  {
+    "id": 17,
+    "categoria": "switches",
+    "titulo": "Outemu White",
+    "descripcion": "Switches ultra ligeros de accionamiento fluido.",
+    "precio": "Disponible",
+    "imagenes": ["images/switches/outemuwhite.png"]
+  },
+  {
+    "id": 18,
+    "categoria": "switches",
+    "titulo": "Outemu Purple",
+    "descripcion": "Switches táctiles con bump moderado y buena respuesta.",
+    "precio": "Disponible",
+    "imagenes": ["images/switches/outemupurple.png"]
+  },
+  {
+    "id": 19,
+    "categoria": "switches",
+    "titulo": "Gateron Baby Dragon V2",
+    "descripcion": "Switches táctiles premium con una excelente sensación al tacto.",
+    "precio": "Disponible (extra $90.00 MX)",
+    "imagenes": ["images/switches/GateronBabyDragonV2.png"]
+  },
+  {
+    "id": 20,
+    "categoria": "switches",
+    "titulo": "Gateron Milky Yellow Pro",
+    "descripcion": "Switches lineales suaves y lubricados de fábrica, muy populares por su sonido.",
+    "precio": "Disponible (extra $90.00 MX)",
+    "imagenes": ["images/switches/GateronMilkyYellowPro.png"]
+  },
+  {
+    "id": 21,
+    "categoria": "switches",
+    "titulo": "Outemu Blue",
+    "descripcion": "Switches 'clicky' clásicos con respuesta sonora y táctil.",
+    "precio": "Disponible",
+    "imagenes": ["images/switches/outemublue.png"]
+  },
+  {
+    "id": 22,
+    "categoria": "reposamunecas",
+    "titulo": "Reposamuñecas color azul",
+    "descripcion": "descripcion-del-producto.",
+    "precio": "Disponible",
+    "imagenes": ["images/reposamunecas/azul.png"]
+  },
+  {
+    "id": 23,
+    "categoria": "reposamunecas",
+    "titulo": "Reposamuñecas color naranja",
+    "descripcion": "descripcion-del-producto.",
+    "precio": "Disponible",
+    "imagenes": ["images/reposamunecas/naranja.png"]
+  },
+  {
+    "id": 24,
+    "categoria": "keys",
+    "titulo": "Set 01",
+    "descripcion": "Descripcion",
+    "precio": "Disponible",
+    "imagenes": ["images/setteclas/set1.jpg"]
+  },
+  {
+    "id": 25,
+    "categoria": "keys",
+    "titulo": "Set 02",
+    "descripcion": "Descripcion",
+    "precio": "Disponible",
+    "imagenes": ["images/setteclas/set2.png"]
+  },
+  {
+    "id": 26,
+    "categoria": "keys",
+    "titulo": "Set 03",
+    "descripcion": "Descripcion",
+    "precio": "Disponible",
+    "imagenes": ["images/setteclas/set3.png"]
+  },
+  {
+    "id": 27,
+    "categoria": "keys",
+    "titulo": "Set 04",
+    "descripcion": "Descripcion",
+    "precio": "Disponible",
+    "imagenes": ["images/setteclas/set4.jpg"]
+  },
+  {
+    "id": 28,
+    "categoria": "keys",
+    "titulo": "Set 05",
+    "descripcion": "Descripcion",
+    "precio": "Disponible",
+    "imagenes": ["images/setteclas/set5.png"]
+  },
+  {
+    "id": 29,
+    "categoria": "keys",
+    "titulo": "Set 06",
+    "descripcion": "Descripcion",
+    "precio": "Disponible",
+    "imagenes": ["images/setteclas/set6.png"]
+  },
+  {
+    "id": 30,
+    "categoria": "keys",
+    "titulo": "Set 07",
+    "descripcion": "Descripcion",
+    "precio": "Disponible",
+    "imagenes": ["images/setteclas/set7.png"]
+  },
+  {
+    "id": 31,
+    "categoria": "keys",
+    "titulo": "Set 08",
+    "descripcion": "Descripcion",
+    "precio": "Disponible",
+    "imagenes": ["images/setteclas/set8.jpg"]
+  },
+  {
+    "id": 32,
+    "categoria": "keys",
+    "titulo": "Set 09",
+    "descripcion": "Descripcion",
+    "precio": "Disponible",
+    "imagenes": ["images/setteclas/set9.png"]
+  },
+  {
+    "id": 33,
+    "categoria": "keys",
+    "titulo": "Set 10",
+    "descripcion": "Descripcion",
+    "precio": "Disponible",
+    "imagenes": ["images/setteclas/set10.png"]
+  },
+  {
+    "id": 34,
+    "categoria": "keys",
+    "titulo": "Set 11",
+    "descripcion": "Descripcion",
+    "precio": "Disponible",
+    "imagenes": ["images/setteclas/set11.png"]
+  },
+  {
+    "id": 35,
+    "categoria": "keys",
+    "titulo": "Set 12",
+    "descripcion": "Descripcion",
+    "precio": "Disponible",
+    "imagenes": ["images/setteclas/set12.png"]
+  }
+  
+  
+]
