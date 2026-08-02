@@ -148,7 +148,7 @@
     "categoria": "switches",
     "titulo": "Gateron Baby Dragon V2",
     "descripcion": "Switches táctiles premium con una excelente sensación al tacto.",
-    "precio": "Disponible (extra $90.00 MX)",
+    "precio": "Disponible",
     "imagenes": ["images/switches/GateronBabyDragonV2.png"]
   },
   {
@@ -156,7 +156,7 @@
     "categoria": "switches",
     "titulo": "Gateron Milky Yellow Pro",
     "descripcion": "Switches lineales suaves y lubricados de fábrica, muy populares por su sonido.",
-    "precio": "Disponible (extra $90.00 MX)",
+    "precio": "Disponible",
     "imagenes": ["images/switches/GateronMilkyYellowPro.png"]
   },
   {
@@ -171,7 +171,7 @@
     "id": 22,
     "categoria": "reposamunecas",
     "titulo": "Reposamuñecas color azul",
-    "descripcion": "descripcion-del-producto.",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/reposamunecas/azul.png"]
   },
@@ -179,7 +179,7 @@
     "id": 23,
     "categoria": "reposamunecas",
     "titulo": "Reposamuñecas color naranja",
-    "descripcion": "descripcion-del-producto.",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/reposamunecas/naranja.png"]
   },
@@ -187,7 +187,7 @@
     "id": 24,
     "categoria": "keys",
     "titulo": "Set 01",
-    "descripcion": "Descripcion",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/setteclas/set1.jpg"]
   },
@@ -195,7 +195,7 @@
     "id": 25,
     "categoria": "keys",
     "titulo": "Set 02",
-    "descripcion": "Descripcion",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/setteclas/set2.png"]
   },
@@ -203,7 +203,7 @@
     "id": 26,
     "categoria": "keys",
     "titulo": "Set 03",
-    "descripcion": "Descripcion",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/setteclas/set3.png"]
   },
@@ -211,7 +211,7 @@
     "id": 27,
     "categoria": "keys",
     "titulo": "Set 04",
-    "descripcion": "Descripcion",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/setteclas/set4.jpg"]
   },
@@ -219,7 +219,7 @@
     "id": 28,
     "categoria": "keys",
     "titulo": "Set 05",
-    "descripcion": "Descripcion",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/setteclas/set5.png"]
   },
@@ -227,7 +227,7 @@
     "id": 29,
     "categoria": "keys",
     "titulo": "Set 06",
-    "descripcion": "Descripcion",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/setteclas/set6.png"]
   },
@@ -235,7 +235,7 @@
     "id": 30,
     "categoria": "keys",
     "titulo": "Set 07",
-    "descripcion": "Descripcion",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/setteclas/set7.png"]
   },
@@ -243,7 +243,7 @@
     "id": 31,
     "categoria": "keys",
     "titulo": "Set 08",
-    "descripcion": "Descripcion",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/setteclas/set8.jpg"]
   },
@@ -251,7 +251,7 @@
     "id": 32,
     "categoria": "keys",
     "titulo": "Set 09",
-    "descripcion": "Descripcion",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/setteclas/set9.png"]
   },
@@ -259,7 +259,7 @@
     "id": 33,
     "categoria": "keys",
     "titulo": "Set 10",
-    "descripcion": "Descripcion",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/setteclas/set10.png"]
   },
@@ -267,7 +267,7 @@
     "id": 34,
     "categoria": "keys",
     "titulo": "Set 11",
-    "descripcion": "Descripcion",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/setteclas/set11.png"]
   },
@@ -275,7 +275,7 @@
     "id": 35,
     "categoria": "keys",
     "titulo": "Set 12",
-    "descripcion": "Descripcion",
+    "descripcion": "",
     "precio": "Disponible",
     "imagenes": ["images/setteclas/set12.png"]
   }
