@@ -4,7 +4,7 @@
     "categoria": "teclados",
     "titulo": "CORNE MX",
     "descripcion": "Teclado ergonómico dividido, 42 teclas, iluminación RGB, hotswap, teclas y switches intercambiables, alámbrico.",
-    "precio": "$2,750.00 MX",
+    "precio": "$2,750.00 MXN",
     "imagenes": ["images/teclados/cornemx2.png", "images/teclados/cornemx.png"]
   },
   {
@@ -12,7 +12,7 @@
     "categoria": "teclados",
     "titulo": "CORNE LOW PROFILE",
     "descripcion": "Teclado ergonómico dividido, 42 teclas, iluminación RGB, hotswap, switches low profile, teclas y switches intercambiables, alámbrico.",
-    "precio": "$3,000.00 MX",
+    "precio": "$3,000.00 MXN",
     "imagenes": ["images/teclados/cornelowprofile.jpg"]
   },
   {
@@ -20,7 +20,7 @@
     "categoria": "teclados",
     "titulo": "CORNE WIRELESS",
     "descripcion": "Teclado ergonómico dividido, 42 teclas, hotswap, switches low profile, teclas y switches intercambiables, alámbrico.",
-    "precio": "$3,300.00 MX",
+    "precio": "$3,300.00 MXN",
     "imagenes": ["images/teclados/cornewireless.jpg", "images/teclados/cornewireless2.jpg"]
   },
   {
@@ -28,7 +28,7 @@
     "categoria": "teclados",
     "titulo": "CORNE TÉMATICO",
     "descripcion": "Teclado ergonómico dividido, 42 teclas, hotswap, switches low profile, teclas y switches intercambiables, inalámbrico o alámbrico.",
-    "precio": "$3,000.00 MX",
+    "precio": "$3,000.00 MXN",
     "imagenes": ["images/teclados/cornetematico.jpg", "images/teclados/cornetematico2.jpg"]
   },
   {
@@ -36,7 +36,7 @@
     "categoria": "teclados",
     "titulo": "LILY 58 PRO MX",
     "descripcion": "Teclado ergonómico dividido, 58 teclas, hotswap, switches MX, teclas y switches intercambiables, alámbrico.",
-    "precio": "$2,850.00 MX",
+    "precio": "$2,850.00 MXN",
     "imagenes": ["images/teclados/Lily58ProMX.png", "images/teclados/Lily58ProMX2.png"]
   },
   {
@@ -44,7 +44,7 @@
     "categoria": "teclados",
     "titulo": "LILY 58 PRO LOW PROFILE",
     "descripcion": "Teclado ergonómico dividido, 58 teclas, hotswap, switches low profile, teclas y switches intercambiables, alámbrico.",
-    "precio": "$3,100.00 MX",
+    "precio": "$3,100.00 MXN",
     "imagenes": ["images/teclados/Lily58ProLowProfile.jpg"]
   },
   {
@@ -52,7 +52,7 @@
     "categoria": "teclados",
     "titulo": "LILY 58 PRO WIRELESS",
     "descripcion": "Teclado ergonómico dividido, 58 teclas, hotswap, switches low profile, teclas y switches intercambiables, inalámbrico.",
-    "precio": "$3,500.00 MX",
+    "precio": "$3,500.00 MXN",
     "imagenes": ["images/teclados/Lily_58_Pro_Wireless.jpg"]
   },
   {
@@ -60,7 +60,7 @@
     "categoria": "teclados",
     "titulo": "SOFLE V1.1",
     "descripcion": "Teclado ergonómico dividido, 58 teclas y 2 perillas, hotswap, switches MX, teclas y switches intercambiables, alámbrico.",
-    "precio": "$2,850.00 MX",
+    "precio": "$2,850.00 MXN",
     "imagenes": ["images/teclados/soflev11.jpg"]
   },
   {
@@ -68,7 +68,7 @@
     "categoria": "teclados",
     "titulo": "PYKEY40",
     "descripcion": "Teclado completo, 48 teclas, iluminación RGB, hotswap MX, switches MX, teclas y switches intercambiables, alámbrico.",
-    "precio": "$2,100.00 MX",
+    "precio": "$2,100.00 MXN",
     "imagenes": ["images/teclados/PyKey40.png"]
   },
   {
@@ -76,7 +76,7 @@
     "categoria": "teclados",
     "titulo": "FERRIS SWEEP",
     "descripcion": "Teclado ergonómico dividido, 34 teclas, switches MX o low profile, teclas y switches intercambiables, alámbrico.",
-    "precio": "$1,800.00 MX",
+    "precio": "$1,800.00 MXN",
     "imagenes": ["images/teclados/Ferris_swep.png", "images/teclados/Ferris_swep2.png"]
   },
   {
@@ -84,7 +84,7 @@
     "categoria": "teclados",
     "titulo": "REVIUNG 41",
     "descripcion": "Teclado ergonómico, 41 teclas, switches MX, teclas y switches intercambiables, alámbrico.",
-    "precio": "$2,100.00 MX",
+    "precio": "$2,100.00 MXN",
     "imagenes": ["images/teclados/Reviung41.jpg"]
   },
   {
@@ -92,7 +92,7 @@
     "categoria": "teclados",
     "titulo": "TOTEM",
     "descripcion": "Teclado ergonómico dividido, 38 teclas, switches low profile, teclas y switches intercambiables, alámbrico.",
-    "precio": "$2,200.00 MX",
+    "precio": "$2,200.00 MXN",
     "imagenes": ["images/teclados/totem.jpg"]
   },
   {
@@ -100,7 +100,7 @@
     "categoria": "teclados",
     "titulo": "TOTEM WIRELESS",
     "descripcion": "Teclado ergonómico dividido, 38 teclas, switches low profile, teclas y switches intercambiables, inalámbrico.",
-    "precio": "$2,500.00 MX",
+    "precio": "$2,500.00 MXN",
     "imagenes": ["images/teclados/totem_wireless.jpg"]
   },
   {
